@@ -1,0 +1,36 @@
+h1, h3, p, a, button{
+    font-family: "楷体", Helvetica, Arial, sans-serif;
+}
+
+.BackgroundPic{
+    background: url("../bg.png") repeat;
+    position: absolute; /*这句必须放在width和height之前！！！*/
+    Z-Index:-1;
+    width: 100%;
+    height: 100%;
+}
+
+.Title{
+    margin-top: 10%;
+
+}
+.TitlePic{
+    width: 39.2% ;
+
+}
+.SearchArea{
+    margin-top: 40px;
+    width: 62%;
+    margin-left: 19%;
+    /*border: 2pt solid red;*/
+}
+.SearchText{
+    /*border: 2pt solid black;*/
+}
+.SearchBtn{
+
+}
+.AnswersPanel{
+    margin-top: 40px;
+    width: 62%;
+}
